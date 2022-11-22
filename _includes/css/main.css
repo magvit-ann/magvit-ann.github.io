@@ -284,12 +284,25 @@ section.success {
     }
   }
   /* A large grid might need four columns on widescreen layouts */
-  /* @media (min-width: 1380px) {
+  @media (min-width: 1380px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 23.5%;
       max-width: 23.5%;
     }
-  } */
+  }
+
+.opv-crop {
+    width: 64px;
+    height: 128px;
+    overflow: hidden;
+    float: left;
+    margin: 0 32px 0 32px
+}
+
+.opv-crop img {
+    width: 128px;
+    margin: 0 -32px 0 -32px;
+}
 
 .btn-outline {
     margin-top: 15px;
@@ -439,6 +452,10 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    text-align: left;
 }
 
 .portfolio-modal .modal-content img {

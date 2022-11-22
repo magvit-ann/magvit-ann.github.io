@@ -17,10 +17,10 @@
             </div>
           </div>
           <h3>{{ post.title }}</h3>
-          <!-- <img src="img/{{ post.teaser }}" class="img-responsive" alt="{{ post.alt }}"> -->
+          <!-- <img src="{{ post.teaser }}" class="img-responsive" alt="{{ post.alt }}"> -->
           <video class="img-responsive" loop="" autoplay="" muted="" playsinline="">
-            <source src="img/{{ post.teaser }}" type="video/mp4">
-        </video>
+            <source src="{{ post.teaser }}" type="video/mp4">
+          </video>
         </a>
       </div>
       {% endfor %}

@@ -1,7 +1,4 @@
 
-
-VQ large reconstruction x4
-
 Ultra wide outpainting
 
 Multi-task
@@ -11,4 +8,3 @@ Comparisons
 * BAIR: RaMViD
 * K600: RaMViD
 * VQ UCF: MaskGIT, TATS
-
