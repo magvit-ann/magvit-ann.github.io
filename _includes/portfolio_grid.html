@@ -3,7 +3,7 @@
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
+        <!-- <h2>Portfolio</h2> -->
         <hr class="star-primary">
       </div>
     </div>
@@ -16,10 +16,20 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <h3>{{ post.title }}</h3>
+          <!-- <img src="img/{{ post.teaser }}" class="img-responsive" alt="{{ post.alt }}"> -->
+          <video class="img-responsive" loop="" autoplay="" muted="" playsinline="">
+            <source src="img/{{ post.teaser }}" type="video/mp4">
+        </video>
         </a>
       </div>
       {% endfor %}
     </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <hr class="star-primary">
+        <h3>More samples coming shortly ...</h3>
+      </div>
+  </div>
   </div>
 </section>
