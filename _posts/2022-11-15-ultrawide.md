@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 2
-teaser: img/ultrawide/00076_wide5_4.mp4
+teaser: img/ultrawide/00076_wide5_4.gif
 alt: image-alt
 title: Ultrawide Outpainting
-description: Given a vertical video, MAGVIT can turn it into a panoramic video by applying video outpainting multiple times on both sides. We show the input videos on the left and the outputs on the right.
+description: Given a vertical video, MAGVIT can turn it into a panoramic video by applying video outpainting multiple times on both sides.
 ---
 
 <table class="center" style="width:100%">
