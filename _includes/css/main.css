@@ -132,7 +132,7 @@ header .intro-text .abstract {
     }
 
     header .intro-text .abstract {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
 
@@ -446,7 +446,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -502,4 +502,16 @@ footer .footer-below {
 .center {
     margin-left: auto;
     margin-right: auto;
+}
+
+.arrow {
+    width: 5%;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 640px) {
+    .arrow {
+        font-size: 2em;
+    }
 }
