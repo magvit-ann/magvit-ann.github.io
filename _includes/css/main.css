@@ -508,6 +508,7 @@ footer .footer-below {
     width: 5%;
     font-size: 1em;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 @media (min-width: 640px) {
