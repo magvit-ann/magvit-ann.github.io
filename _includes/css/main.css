@@ -516,3 +516,21 @@ footer .footer-below {
         font-size: 2em;
     }
 }
+
+.table80 {
+    width: 100%;
+}
+
+.table65 {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .table80 {
+        width: 80%;
+    }
+
+    .table65 {
+        width: 65%;
+    }
+}
