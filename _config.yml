@@ -68,5 +68,7 @@ collections:
     permalink: /:collection/:path/
   applications:
     output: false
+  teasers:
+    output: false
   benchmarks:
     output: false

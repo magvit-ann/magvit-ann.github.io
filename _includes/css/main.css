@@ -98,7 +98,6 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 3em;
     font-weight: 700;
@@ -115,6 +114,27 @@ header .intro-text .abstract {
     text-align: left;
     font-size: 1.25em;
     font-weight: 20;
+    padding-top: 10px;
+}
+
+header .intro-text .author {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 20;
+}
+
+header .intro-text .email {
+    display: block;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 20;
+}
+
+header .intro-text a {
+    color: white;
 }
 
 @media(min-width:768px) {
@@ -124,7 +144,7 @@ header .intro-text .abstract {
     }
 
     header .intro-text .name {
-        font-size: 5em;
+        font-size: 4em;
     }
 
     header .intro-text .skills {
