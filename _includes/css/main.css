@@ -100,20 +100,20 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     display: block;
-    font-size: 1.25em;
+    font-size: 2em;
     font-weight: 500;
 }
 
 header .intro-text .abstract {
     display: block;
     text-align: left;
-    font-size: 0.75em;
+    font-size: 1.25em;
     font-weight: 20;
 }
 
@@ -124,11 +124,11 @@ header .intro-text .abstract {
     }
 
     header .intro-text .name {
-        font-size: 4em;
+        font-size: 5em;
     }
 
     header .intro-text .skills {
-        font-size: 2.75em;
+        font-size: 3.5em;
     }
 
     header .intro-text .abstract {
